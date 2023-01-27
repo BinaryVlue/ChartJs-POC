@@ -1,0 +1,16 @@
+nav {
+    border: 2px solid red;
+    padding: 0 5%;
+}
+ul, li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links {
+   
+
+}
