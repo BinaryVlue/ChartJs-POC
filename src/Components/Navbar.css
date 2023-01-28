@@ -1,16 +1,23 @@
 nav {
-    border: 2px solid red;
-    padding: 0 5%;
+  padding: 1em 1em;
+  display: flex;
 }
-ul, li {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
+nav ul :hover {
+  cursor: pointer;
+}
+.nav-logo {
+  /* background-color: red; */
+  flex: 30%;
+  display: grid;
+  justify-content: center;
+}
 .links {
-   
-
+  flex: 70%;
 }

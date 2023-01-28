@@ -4,12 +4,12 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav>
-        <div className="logo">
+    <nav className='shadow'>
+        <div  className="nav-logo">
             <img src="..\imgs\cute-logo.png" alt="logo" />
         </div>
         <div className="links">
-            <ul>
+            <ul className='text-gray-500'>
                 <li>Features</li>
                 <li>Blog</li>
                 <li>Help</li>
