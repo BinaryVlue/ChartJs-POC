@@ -7,7 +7,6 @@ const Home = () => {
     return (
         <div className='Home '>
             <section className="h-screen shadow">
-
                 <h1 className='MainText text-6xl text-gray-700'>CUTELYTIX. A NEW ERA IN WEB ANALYTICS</h1>
                 <h3 className='supportLine text-xl text-gray-400'>Instantly see your current & past network activity.
                     Detect malware, & block badly behaving apps.</h3>
