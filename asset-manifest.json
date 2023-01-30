@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BasicFrontEnd/static/css/main.c2deb4ea.css",
-    "main.js": "/BasicFrontEnd/static/js/main.a8fa7008.js",
-    "static/js/787.d8e423c3.chunk.js": "/BasicFrontEnd/static/js/787.d8e423c3.chunk.js",
-    "index.html": "/BasicFrontEnd/index.html",
-    "main.c2deb4ea.css.map": "/BasicFrontEnd/static/css/main.c2deb4ea.css.map",
-    "main.a8fa7008.js.map": "/BasicFrontEnd/static/js/main.a8fa7008.js.map",
-    "787.d8e423c3.chunk.js.map": "/BasicFrontEnd/static/js/787.d8e423c3.chunk.js.map"
+    "main.css": "/ChartJs-POC/static/css/main.c2deb4ea.css",
+    "main.js": "/ChartJs-POC/static/js/main.892fed73.js",
+    "static/js/787.d8e423c3.chunk.js": "/ChartJs-POC/static/js/787.d8e423c3.chunk.js",
+    "index.html": "/ChartJs-POC/index.html",
+    "main.c2deb4ea.css.map": "/ChartJs-POC/static/css/main.c2deb4ea.css.map",
+    "main.892fed73.js.map": "/ChartJs-POC/static/js/main.892fed73.js.map",
+    "787.d8e423c3.chunk.js.map": "/ChartJs-POC/static/js/787.d8e423c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2deb4ea.css",
-    "static/js/main.a8fa7008.js"
+    "static/js/main.892fed73.js"
   ]
 }
