@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="links">
         <ul className='text-gray-500'>
-          <Link to="/">Home</Link>
+          <Link to="/ChartJs-POC">Home</Link>
           <Link to="/help">Help</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/pricing">Pricing</Link>

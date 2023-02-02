@@ -13,6 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/ChartJs-POC" element={<Home />} />
         <Route path="/help" element={<Help/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/pricing" element={<Pricing/>} />

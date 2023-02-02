@@ -1,8 +1,20 @@
 import React from 'react'
 import "./Home.css"
-import { Bar } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 import Chart from 'chart.js/auto';
 
+const options = {
+    responsive: true,
+    plugins: {
+        legend: {
+            position: 'top' ,
+        },
+        title: {
+            display: true,
+            text: 'Chart.js Line Chart',
+        },
+    },
+};
 
 const data = {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -39,13 +51,9 @@ const Home = () => {
                 </div>
                 <div className="graph-container flex justify-center content-center flex-auto my-4">
                     <div className="graph w-1/2 h-96">
-                        <Bar
-                            // width={100}
-                            // height={50}
+                        <Line
                             data={data}
-                            options={{
-                                maintainAspectRatio: false,
-                            }}
+                            options={options}
                         />
                     </div>
 
